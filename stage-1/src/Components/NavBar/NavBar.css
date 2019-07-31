@@ -40,4 +40,10 @@ hr {
   background: black;
 }
 
-
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
