@@ -12,6 +12,10 @@ class App extends Component {
       cart: [],
       showCart: false
     };
+    this.addToCart = this.addToCart.bind(this);
+    this.removeFromCart = this.removeFromCart.bind(this);
+    this.navigate = this.navigate.bind(this);
+
   }
   componentDidMount() {
     axios
